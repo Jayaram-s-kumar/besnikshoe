@@ -690,7 +690,7 @@ input {
     }
 }
 
-.icons {
+.icons{
     display: flex !important;
     align-items: center;
     justify-content: center;
@@ -698,8 +698,14 @@ input {
     flex-direction: row !important;
 }
 
-.icons img {
+.icons img{
     width: 20px;
+}
+
+@media (max-width:500px) {
+    .icons img{
+        width: 17px;
+    }
 }
 
 
